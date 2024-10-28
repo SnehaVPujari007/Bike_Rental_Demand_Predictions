@@ -28,7 +28,7 @@ The dataset used in this project is present on  this repository
 
 <h3>Data Processing </h3>
 <li>Data Cleaning: Handle missing values and outliers. </li>
-<li>Feature Engineering: Create new features like year, month, day, and weekday. We also encode categorical variables. </li>
+
 <li>Normalization: Scale numeric features to ensure all values are in the same range. </li>
 <h3>Modeling Approach</h3>
 
