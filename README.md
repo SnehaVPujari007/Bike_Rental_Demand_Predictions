@@ -32,7 +32,7 @@ The dataset used in this project is present on  this repository
 <li>Normalization: Scale numeric features to ensure all values are in the same range. </li>
 <h3>Modeling Approach</h3>
 
-<li>Linear Regression</li>
+<li>Linear Regression</li> 
  <li>Decision Tree Regressor</li>
 <li>Random Forest Regressor</li>
 <li>Gradient Boosting Regressor </li>
