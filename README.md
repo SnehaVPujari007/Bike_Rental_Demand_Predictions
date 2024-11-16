@@ -1,54 +1,90 @@
 <<<<<<< HEAD
-# Bike Rental Demand Predictions
+# Bike Rental Demand Prediction
 
-<p>This project aims to predict daily bike rental demand based on various environmental and seasonal factors. Accurate demand predictions help bike rental companies optimize their fleet and provide better customer service. Using machine learning techniques, this project analyzes historical data to build a model that forecasts bike rentals, aiding in operational decision-making.</p>
+This repository contains a project focused on predicting daily bike rental demand based on various environmental and seasonal factors. Using machine learning techniques, the project builds predictive models to help optimize operations and improve decision-making for bike rental services.
 
-<h3>Table of Contents</h3>
-<ol type = 1>
-
-<li>Project Overview </li>
-<li>Dataset </li>
-<li>Data Processing </li>
-<li>Modeling Approach </li>
-<li>Evaluation Metrics </li>
-<li>Results </li>
-<li>Contributing </li>
-<li>License  </li>
-</ol>
-<h3>Project Overview </h3>
-<p>Bike rental systems are widely used in urban areas, and demand prediction can significantly enhance operations. This project focuses on predicting the total count of bikes rented per day using factors like temperature, humidity, season, weather, and other temporal variables. </p>
-
-<h3>Objective </h3>
-<li>Build a predictive model to forecast bike rental demand.</li>
-<li>Improve model performance by experimenting with multiple machine learning algorithms. </li>
-<li>Provide insights on how environmental factors influence bike rentals.</li>
-
-<h3>Dataset</h3>
-The dataset used in this project is present on  this repository 
-
-<h3>Data Processing </h3>
-<li>Data Cleaning: Handle missing values and outliers. </li>
-
-<li>Normalization: Scale numeric features to ensure all values are in the same range. </li>
-<h3>Modeling Approach</h3>
-
-<li>Linear Regression</li> 
- <li>Decision Tree Regressor</li>
-<li>Random Forest Regressor</li>
-<li>Gradient Boosting Regressor </li>
-
-<h3>Evaluation Metrics </h3>
-
-<li>Root Mean Squared Error (RMSE) </li>
-<li>R-squared Score </li>
+## Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Data Processing](#data-processing)
+- [Modeling Approach](#modeling-approach)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Installation](#installation)
+- [Contributing](#contributing)
 
 
-<h3>Contributing </h3>
-> Contributions are welcome! Please follow the contribution guidelines and submit a pull request.
+---
 
-<h3>License </h3>
-<p>This project is licensed under the MIT License. </p>
+## Overview
+Bike rental systems are integral to urban transportation. Predicting demand helps businesses ensure availability, reduce operational costs, and enhance user satisfaction. This project leverages machine learning to predict the total count of bikes rented per day based on historical data.
 
+### Objectives
+- Predict bike rental demand using historical data.
+- Analyze the impact of environmental and temporal factors on demand.
+- Experiment with different machine learning algorithms for better accuracy.
+
+---
+
+## Dataset
+The dataset includes information on daily bike rentals with features such as:
+- **Date**: Specific day.
+- **Season**: Categorical (spring, summer, fall, winter).
+- **Weather**: Categorical (clear, cloudy, rainy, etc.).
+- **Temperature**: Normalized temperature in Celsius.
+- **Humidity**: Normalized humidity levels.
+- **Windspeed**: Normalized wind speed.
+- **Holiday**: Binary flag indicating if the day is a holiday.
+- **Working Day**: Binary flag indicating if the day is a working day.
+
+**Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset)
+
+---
+
+## Data Processing
+The dataset undergoes the following steps:
+1. **Data Cleaning**: Handle missing values and remove outliers.
+2. **Feature Engineering**: Add features like year, month, day, and weekday. Encode categorical variables.
+3. **Normalization**: Scale numerical features for better model performance.
+
+---
+
+## Modeling Approach
+We tested multiple machine learning models:
+- **Linear Regression**
+- **Decision Tree Regressor**
+- **Random Forest Regressor**
+- **Gradient Boosting Regressor**
+- **XGBoost Regressor**
+
+Hyperparameter tuning was performed using grid search, and cross-validation ensured the generalizability of results.
+
+---
+
+## Evaluation Metrics
+Model performance was assessed using:
+- **Mean Absolute Error (MAE)**
+- **Mean Squared Error (MSE)**
+- **Root Mean Squared Error (RMSE)**
+- **R-squared Score**
+
+---
+
+## Installation
+To get started, clone this repository and install the required dependencies:
+
+```bash
+git clone https://github.com/SnehaVPujari007/bike-rental-demand-prediction.git
+cd bike-rental-demand-prediction
+pip install -r requirements.txt
+
+---
+## Contributing
+Contributions are welcome! Follow these steps to contribute:
+
+1. **Fork the Repository**: Click the "Fork" button at the top-right corner of this repository.
+2. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/SnehaVPujari007/bike-rental-demand-prediction.git
 
 =======
 # Bike Rental Demand Predictions
