@@ -23,7 +23,7 @@ Bike rental systems are integral to urban transportation. Predicting demand help
 - Analyze the impact of environmental and temporal factors on demand.
 - Experiment with different machine learning algorithms for better accuracy.
 
----
+
 
 
 
@@ -58,7 +58,10 @@ Model performance was assessed using:
 - **R-squared Score**
 
 ---
+## License
 
+- This project is licensed under the MIT License .
+---
 ## Installation and Contributing
 To get started, clone this repository and install the required dependencies:
 
@@ -66,8 +69,6 @@ To get started, clone this repository and install the required dependencies:
 git clone https://github.com/SnehaVPujari/bike-rental-demand-prediction.git
 cd bike-rental-demand-prediction
 pip install -r requirements.txt
+````
 
----
-## License
 
-- This project is licensed under the MIT License .
