@@ -4,14 +4,12 @@ This repository contains a project focused on predicting daily bike rental deman
 
 ## Table of Contents
 - [Overview](#overview)
-- [Dataset](#dataset)
+
 - [Data Processing](#data-processing)
 - [Modeling Approach](#modeling-approach)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Future Enhancements](#future-enhancements)
+
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -27,18 +25,8 @@ Bike rental systems are integral to urban transportation. Predicting demand help
 
 ---
 
-## Dataset
-The dataset includes information on daily bike rentals with features such as:
-- **Date**: Specific day.
-- **Season**: Categorical (spring, summer, fall, winter).
-- **Weather**: Categorical (clear, cloudy, rainy, etc.).
-- **Temperature**: Normalized temperature in Celsius.
-- **Humidity**: Normalized humidity levels.
-- **Windspeed**: Normalized wind speed.
-- **Holiday**: Binary flag indicating if the day is a holiday.
-- **Working Day**: Binary flag indicating if the day is a working day.
 
-**Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset)
+
 
 ---
 
@@ -56,7 +44,7 @@ We tested multiple machine learning models:
 - **Decision Tree Regressor**
 - **Random Forest Regressor**
 - **Gradient Boosting Regressor**
-- **XGBoost Regressor**
+- 
 
 Hyperparameter tuning was performed using grid search, and cross-validation ensured the generalizability of results.
 
@@ -71,10 +59,15 @@ Model performance was assessed using:
 
 ---
 
-## Installation
+## Installation and Contributing
 To get started, clone this repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/bike-rental-demand-prediction.git
+git clone https://github.com/SnehaVPujari/bike-rental-demand-prediction.git
 cd bike-rental-demand-prediction
 pip install -r requirements.txt
+
+---
+## License
+
+- This project is licensed under the MIT License .
